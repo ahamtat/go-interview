@@ -1,2 +1,2 @@
 # go-interview
-Interview tasks for Golang developer
+Задачи, рассмотренные во время технических интервью на соискание вакансии "Разработчик Golang"
