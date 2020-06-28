@@ -51,7 +51,11 @@
 с помощью регулярного выражения. Общее значение счетчика будем
 увеличивать посредством атомарной операции.
 
-## Запуск программы
+## Установка и запуск программы
+
+Программа может быть установлена с помощью команды
+
+    $ go get -u github.com/ahamtat/go-interview/test/gowordcounter
 
 После запуска программа ожидает ввода с клавиатуры источника данных.
 Нажатие клавиши **Enter** запускает обработку источника. Нажатие
@@ -59,7 +63,7 @@
 Также приложение поддерживает Linux pipes и может быть запущено
 следующим образом:
 
-    $ echo -e 'https://golang.org\n/etc/passwd\nhttps://golang.org\nhttps://golang.org' | go run main.go
+    $ echo -e 'https://golang.org\n/etc/passwd\nhttps://golang.org\nhttps://golang.org' | gowordcounter
     2020/06/28 15:48:00 Count for /etc/passwd: 0
     2020/06/28 15:48:01 Count for https://golang.org: 14
     2020/06/28 15:48:01 Count for https://golang.org: 14
