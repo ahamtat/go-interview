@@ -69,3 +69,23 @@
     2020/06/28 15:48:01 Count for https://golang.org: 14
     2020/06/28 15:48:01 Count for https://golang.org: 14
     2020/06/28 15:48:01 Total: 42
+
+## Фидбек от Mail.ru
+
+Плюсы:
+
+- понятный и оформленный ридми в репозитории
+- код читаемый и понятный
+- понятное разбиение на функции
+- использует стандартную библиотеку
+- есть комментарии
+- есть тесты
+
+Минусы:
+
+- https://github.com/ahamtat/go-interview/blob/110f8… не очень понял зачем два раза пытаться парсить
+- https://github.com/ahamtat/go-interview/blob/110f8… нет таймаута
+- https://github.com/ahamtat/go-interview/blob/110f8… не обработана ошибка хтпп запроса
+- https://github.com/ahamtat/go-interview/blob/110f8… не обработана ошибка открытия файла
+- https://github.com/ahamtat/go-interview/blob/110f8… весь текст вычитывается в память
+- https://github.com/ahamtat/go-interview/blob/110f8… каждый раз заново компилится регэксп
